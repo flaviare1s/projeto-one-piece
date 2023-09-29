@@ -37,3 +37,32 @@
         max-width: 60px;
     }
 }
+
+
+@media (max-width: 425px) {
+    img.imagem {
+        height: auto;
+    }
+
+    i.logo {
+        width: 170px;
+        height: 75px;
+    }
+
+    div.conteudo {
+        top: -30%;
+    }
+
+    h2.nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        padding: 20px;
+        top: -20%;
+    }
+
+    .botao img {
+        max-width: 50px;
+    }
+}
