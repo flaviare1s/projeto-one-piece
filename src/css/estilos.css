@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 body {
     background-color: #000000;
 }
@@ -20,13 +22,24 @@ img.imagem {
 }
 
 div.conteudo {
-    background-color: transparent;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    max-width: 380px;
     position: absolute;
     top: 0;
     left: 120px;
+}
+
+h2.nome-personagem {
+    font-size: 48px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+p.descricao {
+    font-family: 'Rubik', sans-serif;
 }
