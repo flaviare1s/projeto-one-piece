@@ -8,8 +8,7 @@ console.log(botoes);
 
 botoes.forEach(botao => {
     botao.addEventListener("click", () => {
-        console.log("clicou no botão");
-
+        botao.classList.add("selecionado");
     });
 });
 
