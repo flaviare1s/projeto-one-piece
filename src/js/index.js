@@ -4,3 +4,13 @@
 const botoes = document.querySelectorAll('.botao');
 console.log(botoes);
 
+/* Passo 2: Adicionar a classe .selecionado no botão clicado */
+
+botoes.forEach(botao => {
+    botao.addEventListener("click", () => {
+        console.log("clicou no botão");
+
+    });
+});
+
+
